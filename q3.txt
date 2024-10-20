@@ -1,0 +1,7 @@
+1. Fault Tolerence and Failover Stategies:
+
+  Reduncy and replication : we create multiple replica for each data and store on different -2 server if some how one server is dowm then we use different server for access that data.
+
+
+ Monitoring: Use use some api that api call the server if we are getting the response that means server is up. 
+
