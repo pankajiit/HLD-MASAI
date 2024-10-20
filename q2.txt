@@ -1,0 +1,30 @@
+1. Scalability Approach
+
+Load Balanching Technologies: 
+      Load balance use for divide the load accross all the server. If I have number of server more then 2 then we use the above technique.
+Caching strategies: 
+      Caching is a technique to store the response for the api, so we if same request come the we can direct return the response. we use the save the use inforamtion about login etc.
+
+Auto Scaling methods: 
+    When load increase on the server the automatically increate create new sever.
+
+
+
+2. Real Time Synchronization: 
+
+   Communication Protocals: WebSockets we revser a special port to listen and receive the event~.
+
+   Message Queue System: For the above we use redis like message queue system when we received any event we put in the queue after that in there will be a programe for access the queue for send the invetation to all users.
+
+
+
+   Data Flow: 
+
+
+   User ----------> create Event ----->save in db and put in redis ----> sent the notification to users 
+
+
+ 
+
+
+
